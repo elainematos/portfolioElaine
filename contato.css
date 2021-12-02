@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/fundoFolha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sessao {
+    display: flex;
+    justify-content: center;
+}
+.contato {
+    width: 100%;
+    max-width: 500px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.field {
+    padding: 10px;
+    margin-bottom: -10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+textarea {
+    height: 150px;
+}
+.contato h1 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(186, 102, 247);
+}
+label {
+    color: white;
+    font-weight: bold;
+}
+#botao-enviar {
+    font-size: 22px;
+    color: rgb(90, 4, 90);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#botao-enviar:hover {
+    background-color: rgb(176, 109, 243);
+    box-shadow: 2px 2px 5px rgb(176, 109, 243) ;
+}
+.setaVoltar {
+    display: fixed;
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+    
+
+}
+.setaVoltar:hover{
+    filter: drop-shadow(2px 2px 5px rgb(178, 104, 238));
+}
+
+

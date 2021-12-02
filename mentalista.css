@@ -1,0 +1,116 @@
+body {
+    margin:0;
+    height:100%;
+  background-image:url("https://i.pinimg.com/originals/40/d0/37/40d037c49e4e2bb8e36872f80285184d.jpg");
+     background-size: cover;
+ 
+  }
+  .titulo {
+    text-align:center;
+    font-size:40px;
+    color:white;
+    margin-top:-20px;
+    font-family:helvetica,Arial;
+    text-shadow: 3px 5px 10px black;
+    
+  }
+  .imersao{
+    text-align:center;
+    font-size:25px;
+    color:white;
+    margin-top:-40px;
+    text-shadow: 3px 5px 7px black;   
+  }
+
+  h2 {
+  color:yellow;
+  }
+  strong {
+   background-color:#800000; 
+    box-shadow: 2px 2px 3px darkblue;
+  }
+  .frase { 
+    font-size:15px;
+    color:white;  
+    font-family:helvetica,Arial;
+    text-shadow: 2px 3px 5px black;
+    margin-left:42%;
+  }
+  #digito {
+   padding:10px;
+    border-radius:5px;
+   height:20px;
+    margin-bottom:20px;
+   box-shadow:3px 3px 5px darkred;
+    text-align:center;
+    font-weight:bold;
+    margin-left:41.5%;
+    
+  }
+  
+  #botao {
+    padding:10px;
+    border-radius:5px;
+    display: inline-block;  
+    text-align:center;
+    margin-top:20px;
+    box-shadow:3px 3px 5px darkred;
+    font-weight:bold;
+    margin-left: 42%;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    
+  }
+  #botaoLimpar {
+    padding:10px;
+    border-radius:5px;
+    display:inline-block;  
+    text-align:center;
+    margin-top:20px;
+    box-shadow:3px 3px 5px darkred;
+    font-weight:bold;   
+    width: 100px;
+    float: left;
+
+  }
+  #numAleatorio {
+    background-color:white;
+    width:100px;
+    height:100px;
+    border-radius:4px;
+    border: 1.5px solid #353839;
+    margin-left:45%;
+    box-shadow:3px 3px 5px darkred;
+  }
+   #sorte {
+     padding:10px;
+      margin-left:45%;     
+     border-radius:5px; 
+     width:100px;
+     background-color:#d3d3d3;
+     box-shadow:3px 3px 5px darkred;
+     font-weight:bold;
+     font-size:20px;
+     
+     
+   
+  }
+  #resultado {
+    background-color:white;
+    width:300px;
+    height:55px;
+    border-radius:4px;
+    border: 1.5px solid #353839;
+    margin-left:37%;
+    box-shadow:3px 3px 5px darkred;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+    padding:20px;
+    padding-bottom:20px;
+    margin-top: 10px;
+    align-items: center;
+    
+   
+  }

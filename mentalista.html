@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mentalista.css">
+    <title>Jogo o Mentalista</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1> Mentalista</h1>
+        </div>
+        
+        <div class="imersao">
+            <h2>imersão <strong>Dev_</strong></h2>
+        </div>
+    </header>
+         
+     <!--<div id="numAleatorio"></div>-->
+     
+     
+    <div id="sort">
+    <input type=submit value="Sortear" onclick="sortear()" id="sorte"/>
+    </div>
+        
+    <div class="frase">
+    <p>Digite um número de 0 a 10</p>
+    </div>
+
+    <!--Área onde será digitado o valor--> 
+    
+    <div id="digite">
+        
+        <input type="text" id="digito" placeholder="Digite um Número"> 
+
+        <div id="resultado">       
+        </div> 
+
+        <input type="submit" id="botao" value="Enter" onclick="compara()"> 
+        <input type="button" onclick="limpar()" id="botaoLimpar" value="Limpar">
+            
+    </div> 
+        
+    </div>
+
+     
+    
+     <script src="mentalista.js"></script>
+</body>
+</html>

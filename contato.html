@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="setaRoxa">
+        <a href="boasvindas.html"><img src="imagens/seta-circulo.png" title="Voltar para Página Inicial" alt="Seta para voltar página"  height="100px" class="setaVoltar"></a>
+    </div>
+    
+    <section class="sessao">
+        <div class="contato">
+            <h1>Formulário de Contato</h1>
+            <form action="PHP/enviar-email.php" method="post" class="formulario">
+                <label for="">Nome</label>
+                <input type="text" name="nome" id="texto" class="field" required placeholder="Digite seu nome"><br><br>
+
+                <label for="">Email</label>
+                <input type="email" name="email" id="email" class="field" required placeholder="Digite aqui seu email"><br><br>
+
+                <label for="">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="50" class="field" required placeholder="Digite aqui sua mensagem">
+                </textarea><br>
+                
+                <input type="submit" class="field" id="botao-enviar" value="Enviar">
+
+            </form>
+        </div>
+    </section>
+
+     <script src="contato.js"></script>
+</body>
+</html>

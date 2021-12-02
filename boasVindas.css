@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+
+}
+body {
+    background-image: url(imagens/fundoFolha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.foto {
+    display: flex;
+    justify-content: right;
+    align-items: top right;
+    
+   
+}
+#recebeNome {
+    height: 50px;
+    width: 150px;
+    font-size: 100px;
+    color:#c459f2;
+    font-family: Brush Script MT, 'Arial Narrow Bold', sans-serif;
+    text-shadow:2px 2px 5px #000;
+    margin-bottom: 20px;
+}
+.port {
+    font-size: 150px;
+    text-align: center;
+    /*font-family: 'Lobster', cursive;
+    font-family: 'Praise', cursive;*/
+    font-family: 'Arial Narrow Bold', sans-serif;
+  
+   
+}
+.nome {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin-top: -100px;
+}
+.sbv {
+    font-size: 50px;
+}
+.ola {
+    font-size: 40px;
+}
+.botao {
+    margin-left: 430px;
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: ridge 4px #9a1af5;
+    color:#9a1af5;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.botao:hover {
+    background-color:#7509c2 ;
+    color:white;
+}
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 1200px;
+
+}
+.menu {
+    width: 50%;
+    height: 80px;   
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #190229;
+    margin-top: -5px;
+    border-radius: 0px 0px 25px  25px;
+    font-size: 20px;
+    margin-left: 25%;
+    display: none;
+    box-shadow: 3px 1px 10px #9a1af5;
+    
+}
+.menu-sobe {
+    position: absolute;
+    transition: left 0.5s ease 0s;
+}
+
+.menu-sobe li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    margin-left: 20px;
+    color: #9a1af5;
+    
+
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.menu a:hover{
+   font-size: 25px; 
+   /*text-shadow: 2px 2px 5px #e1b7f2;*/
+   
+}
+.seta {
+    margin-top: 10px;
+    
+    align-items: center;
+    margin-left: 50%;
+    filter: drop-shadow(2px 2px 5px #c088e9);
+    color: white;
+}
+
+.sobre {
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px; 
+    
+}
+
+#linkSobre {
+    transition: all ease .5s;
+
+}
+.setaCima {
+    align-items: center;
+    
+    
+    
+}
+.voltarTopo {
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+footer {
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(25, 2, 49);
+    bottom: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #494b4b;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -7px; 
+    
+   
+}
+
+.imagens {
+    
+    margin-top: 3px;
+    margin-right: 40px;
+}
+.imagens a:hover {
+    filter: drop-shadow(0px 0px 3px #9008f1);
+
+}
+
+.direitos {
+    margin-left: 40px;
+    
+
+}
+

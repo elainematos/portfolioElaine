@@ -1,0 +1,84 @@
+body {
+    background-image: url(imagens/fundoFolhaClaro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 3, 66);
+} 
+.container {
+    max-width: 1000px;
+    align-items: left;
+    margin-left: 13%;
+
+   
+
+}
+.educacao {
+    text-align: center;
+    font-size: 30px;
+    text-shadow:3px 3px 5px rgb(139, 3, 167);
+
+}
+.faculdade {
+    border: solid 2px rgb(48, 1, 42);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(80, 1, 80);
+    text-align: left;   
+    padding: 30px;
+    
+
+}
+.cursos {
+    border: solid 2px rgb(48, 1, 42);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(80, 1, 80);
+    text-align: left;   
+    margin-top: 20px;    
+    padding: 30px;
+   
+
+}
+.extra {
+    text-align: center;
+    text-shadow:1px 1px 3px rgb(139, 3, 167);
+    font-size: 20px;
+    
+}
+.graduacao {
+    text-align: center;
+    text-shadow:1px 1px 3px rgb(139, 3, 167);
+    font-size: 40px;
+
+}
+.voltarTopo {
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+    color: white;
+}
+.setaVoltar {
+    display: fixed;
+    right: 0;
+    position: absolute;
+    margin-right: 70px;  
+
+
+}
+.setaVoltar:hover{
+    filter: drop-shadow(2px 2px 5px rgb(85, 3, 167));
+}
+.setaProxima {
+    display: fixed;
+    right: 0;
+    position: absolute;
+    margin-top: 12px;
+    margin-right: -10px;
+   
+
+}
+.setaProxim:hover{
+    filter: drop-shadow(2px 2px 5px rgb(85, 3, 167));
+}

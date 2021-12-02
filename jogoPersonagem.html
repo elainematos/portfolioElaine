@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogoPersonagem.css">
+    <title>Jogo adivinhe o personagem!</title>
+</head>
+<body>
+   <div class="container">
+       <header>
+            <h1>QUAL ÉO PERSONAGEM?</h1>
+            <h2>ONE PIECE</h2>
+                <p class="imer">Imersão <strong>Dev_</strong></p>
+        </header>        
+
+        
+        <div id="reset">
+            <input type="submit" id="sortear" onclick="aleatorio()" value="Sortear">
+        </div>
+
+        <div id="nome" onload="resetar" >
+        </div>
+                
+        <div id="frase">Digite o número correspondente ao personagem!
+            
+        </div>
+        
+        <div id="numero">
+            <label for="">Digite o Número</label>
+            <input type="text" id="texto" name="Digite o número" placeholder="Digite Aqui">
+            
+            <div id = botao> 
+                <input type="submit" onclick="compara()" value="Vai"/>
+            </div>
+        </div>  
+        <div id="resultado" >
+
+        </div>  
+        <div class="personagem">Personagens</div>
+    
+    <div id="fotos">
+        <img class="um"  src="imagensPersonagens/luffy.png" alt="Imagem Luffy one piece" height="250px"/>
+        <div class="luffy">1</div>
+
+        <img class="dois" src="imagensPersonagens/sanji.png"  alt="Imagem Sanji one piece" height="250px"/>
+            <div class="sanji">2</div>
+
+        <img class="tres" src="imagensPersonagens/zoro.png" alt="Imagem Zoro one piece" height="250px"/>
+        <div class="zoro">3</div>
+
+        <img class="quatro" src="imagensPersonagens/ace.png" alt="Imagem Ace one piece" height="250px"/>
+        <div class="ace">4</div>
+
+        <img class="cinco" src="imagensPersonagens/nami.png" alt="Imagem Nami one piece" height="250px"/>
+        <div class="nami">5</div>
+
+        <img class="seis" src="imagensPersonagens/robin.png" alt="Imagem Robin one piece" height="250px"/>
+        <div class="robin">6</div>
+
+        <img class="sete" src="imagensPersonagens/usopp.png" alt="Imagem Usopp one piece" height="250px"/>
+        <div class="usopp">7</div>
+
+        <img class="oito" src="imagensPersonagens/chopper.png" alt="Imagem Chopper one piece" height="250px"/>
+        <div class="chopper">8</div>
+
+        <img class="nove" src="imagensPersonagens/brook.png" alt="Imagem Brook one piece" height="250px"/>
+        <div class="brook">9</div>
+
+        <img class="dez" src="imagensPersonagens/franky.png" alt="Imagem Franky one piece" height="250px"/>
+        <div class="franky">10</div>
+
+        <img class="onze" src="imagensPersonagens/vivi.png" alt="Imagem Vivi one piece" height="250px"/>
+        <div class="vivi">11</div>
+
+        <img class="doze" src="imagensPersonagens/karoo.png" alt="Imagem Karoo one piece" height="250px"/>
+        <div class="karoo">12</div>
+
+        <img class="treze" src="imagensPersonagens/corazon.png" alt="Imagem Corazon one piece" height="250px"/>
+        <div class="corazon">13</div>
+
+        <img class="quatorze" src="imagensPersonagens/law.png" alt="Imagem Law one piece" height="250px"/>
+        <div class="law">14</div>
+
+        <img class="quinze" src="imagensPersonagens/doflamingo.png" alt="Imagem Doflamingo one piece" height="250px"/>
+        <div class="doflamingo">15</div>
+            
+        </div>
+    </div>
+
+    <script src="jogoPersonagem.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    background-image:url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-atmospheric-textured-film-and-television-company-propaganda-background-image_127872.jpg");
+    background-size:100%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family:helvetiva, Arial;
+    font-size:30px;
+    color:white;
+    text-shadow: 4px 4px 4px black;
+    text-align:center;
+    
+    
+  }
+  h2 {
+    font-family:roboto;
+    font-size:30px;
+    font-weight:lighter;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  
+  }
+  strong {
+    background-color:yellow;
+    text-shadow: 3px 3px 2px black;
+    padding:5px;
+    webkit-text-stroke-width:2px;
+    webkit-text-stroke-color:black;
+    height:10px;
+    
+  }
+  a {
+    color:white;
+    text-shadow:2px 2px 2px black;
+    display:inline-block;
+    font-size:20px;
+    padding: 20px;
+    text-decoration:none; 
+    
+  }
+    a:hover {
+    transform: scale(1.2);   
+    
+  }
+  input {
+    padding:20px;
+    border-radius:20%;
+    width:300px;
+  }
+  #escolha {
+    width:100px;
+    font-weight:bold;
+    font-size:15px;
+    padding:15px;
+  }
+  
+  img {
+    box-shadow:4px 4px 5px darkblue;
+  }
+
+  .titulo {
+       margin-bottom: 20px;
+  }

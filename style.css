@@ -1,0 +1,48 @@
+body {
+    background-image: url(imagens/fundoFolha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#nome {
+    background-color:#e4d0e3;
+    border-radius: 5px;
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    box-shadow: 5px 5px 7px #4B0082;
+    color: #260435;
+}
+#entrar {
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #f4f1f7;        
+    border: ridge 4px #51137e;
+    background-color: transparent;
+
+}
+#entrar:hover {
+    color: #230331;
+    background-color: #8A2BE2;    
+  
+}
+#entrada {
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+}
+#titulo {
+    font-size: 60px;
+    /*font-weight: bold;*/
+    color: white;
+    text-shadow: 3px 3px 8px #8A2BE2;
+    font-family: 'Praise', cursive;
+}
