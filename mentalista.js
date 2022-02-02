@@ -41,7 +41,7 @@ var tentativas = 3;
    
       if (tentativas==0) {
        document.getElementById("resultado").innerHTML = "Suas tentativas acabaram. O número sorteado era"  + " " + numSorteado + " - " + "Sorteie outro número!";  
-   
+       limpar();
      
       }
         
