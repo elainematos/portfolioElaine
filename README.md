@@ -25,4 +25,4 @@ Projeto em desenvolvimento, portfólio criado por mim, Elaine Matos, com demostr
 | :---: | 
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [Aqui](https:/). (ainda não possui caminho)
+Você pode acessar os arquivos do projeto clicando [Aqui](https://portfolio-elaine.vercel.app/)
